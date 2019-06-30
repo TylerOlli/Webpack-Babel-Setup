@@ -1,0 +1,29 @@
+{
+  "name": "Webpack-Babel-Setup",
+  "version": "1.0.0",
+  "description": "Basic structure of a JavaScript app using Webpack and Babel.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerOlli/Webpack-Babel-Setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerOlli/Webpack-Babel-Setup/issues"
+  },
+  "homepage": "https://github.com/TylerOlli/Webpack-Babel-Setup#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
